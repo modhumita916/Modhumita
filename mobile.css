@@ -1,0 +1,845 @@
+@media screen and (max-width: 600px){
+
+
+
+
+
+
+
+/* nav-bar design starts from here */
+.nav-bar{
+    width: 100%;
+}
+
+.nav-heading{
+    width: 70%;
+	padding: 0px 0px 0px 45px; 
+}
+
+.nav-heading h1{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.nav-menu{
+    display: none;
+}
+
+.res-icon{
+    display: block;
+}
+/* nav-bar design ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hero section design starts from here */
+
+.hero-section{
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.hero-row{
+    padding: 0px 30px;
+    text-align: center;
+}
+
+.hero-row div:nth-child(1){
+    padding-top: 100px;
+}
+
+.hero-row div:nth-child(1) h1{
+    font-size: 35px;
+}
+
+.hero-row div:nth-child(1) p{
+   font-size: 16px;
+}
+
+.hero-row div:nth-child(1) button{
+    color: white;
+    border: 1.5px solid rgb(116, 55, 15);
+    border-radius: 20px;
+    padding: 10px 42px;
+    margin-top: 30px;
+    margin-bottom:50px; 
+}
+
+
+
+.m{
+    height: 100% ;
+    width: 100%;
+}
+
+
+/* hero section design ends from here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about-me design starts from here */
+
+.about-me{
+    height: auto;
+    background-color: black;
+    color: white;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.about-row{
+    padding: 50px 25px;
+}
+
+.image-card{
+    width: 100%;
+    height: 400px;
+    background-image: url(image/rayhan2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 15px solid white;
+}
+
+.back{
+    padding: 100px 15px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.image-card:hover .back{
+    display: block;
+}
+
+
+.back button{
+    color: white;
+    border: 2px solid rgb(116, 55, 15);
+    border-radius: 20px;
+    padding: 10px 42px;
+    margin-top: 30px;
+}
+
+.back button:hover{
+    color: white;
+    transition: 1s;
+    transform: translateX(15px);
+    transition-timing-function: linear;
+}
+
+
+
+
+
+.about-row div:nth-child(2) {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.about-row div:nth-child(2) p {
+    margin: -5px 0;
+}
+
+
+.about-row div:nth-child(2) a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.about-row div:nth-child(2) button{
+    color: white;
+    border: 1px solid rgb(116, 55, 15);
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+
+.about-row div:nth-child(2) button:hover{
+    transition: 1s;
+    transform: translateX(15px);
+    transition-timing-function: linear;
+}
+ /* about-me design ends  here */
+
+
+
+
+
+
+
+
+
+
+
+
+ /* our features section starts from here */
+
+ .features-section{
+    padding: 0px 25px ;
+    text-align: center;
+    background-color: black;
+}
+
+.features-section h3{
+   color: white;
+}
+
+.features-section p{
+    color: white;
+ }
+
+.features-row{
+   padding: 50px 30px;
+   color: white;
+}
+
+.features-row div{
+   padding: 10px 0;
+}
+
+
+.features-row div div{
+    background-color: #383838;
+    padding: 20px;
+ }
+ 
+
+
+.features-row div div:hover{
+    background-color: blue;
+    transition: .5s;
+    transform: translateY(-10px);
+ }
+
+ .features-row div div:hover h4{
+    color: white;
+ }
+
+
+ .features-row div div:hover i{
+    color: white;
+ }
+
+.features-row div div i{
+    font-size: 45px;
+    font-weight: bolder;
+    color: green;
+ }
+
+ .features-row div div h4{
+    color: orange;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0px;
+ }
+ /* our features section ends from here */
+
+
+
+
+
+
+
+
+
+
+ 
+
+/* package section design starts from here */
+
+.package-section{
+    height: auto;
+    background-color: black;
+    padding: 50px;
+}
+
+.package-section h3{
+    color: white;
+    text-align: center;
+}
+
+.package-row{
+    color: white;
+    padding: 50px 25px;
+}
+
+.package-row div{
+    padding: 10px 0;
+}
+
+.package-row div div{
+    text-align: center;
+    background-color: #383838;
+    padding: 25px 5px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
+
+.package-row div div:hover{
+    transform: translatey(-15px);
+    border-top: 15px solid orange;
+    border-bottom: 15px solid orange;
+    transition: 1s;
+}
+
+.package-row div div h3{
+    font-weight: bolder;
+}
+
+.package-row div div .icon{
+    color: orange;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+.package-row div div button{
+    color: white;
+    border: 2px solid rgb(116, 55, 15);
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin: 10px 0px;
+}
+
+.package-row div div button:hover{
+    transition: 1s;
+    color: white;
+    transform: translateX(15px);
+    transition-timing-function: linear;
+}
+/* package section design ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+/* our previous work section design starts from here */
+.previous-section{
+    padding: 50px 20px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.previous-row{
+    padding: 50px 20px;
+}
+
+
+
+.previous-row div{
+    height: 600px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.previous-row div div img{
+    width: 100%;
+}
+
+.previous-row div:nth-child(1) div img:hover{
+    transition: 3s;
+    transform: translateY(-68%);
+}
+
+.previous-row div:nth-child(2) div img:hover{
+    transition: 3s;
+    transform: translateY(-58%);
+}
+
+.previous-row div:nth-child(3) div img:hover{
+    transition: 3s;
+    transform: translateY(-66%);
+}
+
+.previous-row div:nth-child(4) div img:hover{
+    transition: 3s;
+    transform: translateY(-55%);
+}
+
+.previous-row div:nth-child(5) div img:hover{
+    transition: 3s;
+    transform: translateY(-62%);
+}
+
+.previous-row div:nth-child(6) div img:hover{
+    transition: 3s;
+    transform: translateY(-40%);
+}
+
+/* our previous work section design ends from here */
+
+
+
+
+
+
+
+
+
+/* education and exprience section design starts from here */
+.exprience-section{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.exprience-row{
+    padding: 50px 20px;
+    text-align: left;
+}
+
+.exprience-row div div{
+    background-color: #383838;
+    padding: 50px 0px;
+    margin-top: 20px;
+    border-left: 2px solid green;
+    position: relative;
+}
+
+.exprience-row div div p{
+    padding: 0px 5px 0px 30px;
+}
+
+.exprience-row div div i{
+   color: green;
+   font-size: 26px;
+   position: absolute;
+   left: 0;
+}
+
+.Exprience{
+    margin-top: 50px;
+}
+
+/* education and exprience section design ends from here */
+
+
+
+
+
+
+
+
+
+
+
+
+/* project preview section design strts from here */
+.project-preview-section{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.project-preview-section h3{
+  color: white;
+}
+
+.project-preview-row {
+    padding: 50px 25px;
+}
+
+.project-preview-row div{
+    padding: 10px 0;
+    margin-top: 0px;
+}
+
+.project-preview-row div div{
+    color: white;
+    padding-top: 20px;
+}
+
+
+.project-preview-row div div:hover{
+    background-color: blue;
+    transition: .5s;
+    transform: translateY(-10px);
+ }
+
+ .project-preview-row div div:hover p{
+    color: white;
+ }
+
+
+ .project-preview-row div div:hover i{
+    color: white;
+ }
+
+ .project-preview-row div div i{
+    font-size: 45px;
+    font-weight: bolder;
+    color: green;
+ }
+
+ .project-preview-row div div h4{
+     font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0px;
+ }
+
+ .project-preview-row div div p{
+     color: orange;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+
+/* project preview section design ends from here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* our-team section design starts from here */
+
+.our-team-section{
+    padding: 50px 0;
+    background-color: black;
+}
+
+.our-team-section-desc{
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+
+.our-team-section-desc h3{
+    color: white;
+}
+
+.card-row{
+    padding: 0px 20px;
+}
+
+.card-col{
+    padding: 10px 0;
+}
+
+.card-body{
+    height: 450px;
+    background-color: #383838;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 10px 0px;
+    align-items: center;
+}
+
+.card-body img{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px gray;
+    margin: 30px 0px ;
+}
+
+.card-body h3{
+    font-size: 28px;
+    color: orange;
+}
+
+
+.card-desc p{
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.card-row button{
+    text-align: left;
+    border-radius: 50%;
+    border: none;
+    margin: 20px 10px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: gray;
+}
+
+.card-row button:hover{
+    transition: 1s;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+    color: white;
+    box-shadow: 0px 0px 5px gray;
+}
+
+/* our-team section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------ CONATCT FORM -------------*/
+
+.contact-form {
+	height:auto;
+	box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+
+.contact-form div {
+	height: 100%;
+	box-sizing: border-box;
+
+}
+
+.contact-row{
+    padding: 50px 20px;
+}
+
+
+.contact-form div:nth-child(1) h3 {
+	margin-bottom: 20px;
+}
+.contact-form div:nth-child(1) p {
+    font-weight: 600;
+    width: 90%;
+	color: gray;
+}
+
+
+.field {
+    background-color: black;
+    border: 1px solid rgb(116, 55, 15);
+	width: 85%;
+	margin: 2%;
+	height: 45px;
+	font-size: 17px;
+	padding-left: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+    color: white;
+}
+
+.textarea {
+    background-color: black;
+    border: 1px solid rgb(116, 55, 15);
+	width: 85%;
+	margin: 2%;
+	height: 45px;
+	font-size: 17px;
+	height: 120px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+	padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.submit{
+    background-color: black;
+    border: 1px solid rgb(116, 55, 15);
+	width: 160px;
+	height: 45px;
+	color:  white;
+	font-family: century gothic;
+	font-weight: 600;
+	font-size: 18px;
+	font-weight: 600;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+	margin: 1% 2%;
+	
+
+}
+.submit:hover {
+	transition: 2s;
+    transform: translateX(10px);
+}
+
+
+
+
+
+
+/*--------- Contact ----------*/
+.footer {
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-sizing: border-box;
+	align-content: flex-end;
+	margin-bottom:-10px;
+}
+
+
+.footer div {
+	height: auto;
+	padding: 2% 5% ;
+	min-width: 220px;
+	border: none !important;
+	text-align: center !important;
+}
+
+
+.footer div p {
+	font-family: century gothic;
+	font-weight: 500;
+	font-size: 17px;
+	color: #e2e2e2;
+	margin: 20px 0px;
+
+}
+.footer div i {
+	font-size: 20px;
+	color: #e2e2e2;
+	margin-right: 10px;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+}
+
+.footer div i:hover {
+	background:white;
+	border-radius: 50%;
+	color: black;
+	box-shadow: 0px 0px 5px gray;
+	transform: scale(1.1);
+}
+
+.footer div h1 {
+	font-family:century gothic;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	letter-spacing: .5px;
+}
+.footer div li {
+	font-family: century gothic;
+	font-weight: 500;
+	font-size: 17px;
+	text-decoration: none;
+	display: block;
+	margin: 12px 0px;
+	color: #e2e2e2;
+}
+
+.footer div li a {
+	color: #e2e2e2;
+	text-decoration: none;
+}
+.footer div li:hover {
+	transform: translateX(10px);
+	transition: 1s;
+}
+
+.contact div:nth-child(4) i {
+	font-size: 17px;
+	margin: 0px 0px;
+}
+.footer div:nth-child(4) i:hover {
+	background: none !important;
+	color: white !important;
+}
+
+
+
+
+
+
+
+/*----- copy right ---------*/
+
+.copyright {
+	height:auto;
+	background-color: #383838;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.copyright hr {
+	width: 90%;
+	margin: auto;
+    color: white;
+}
+
+.copyright p {
+	color: white;
+	margin-top: 22px;
+	font-weight: 600;
+    font-size: 15px;
+}
+
+.copyright a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+.copyright a:hover {
+	color: blue;
+	transition: 1s;
+}
+
+
+
+
+
+
+
+
+}
